@@ -1,0 +1,30 @@
+﻿
+/* текстовое поле для разбора слова */
+.inputWord {
+    color: var(--text-color);
+    border: none;
+    background-color: var(--block-fon);
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+/* убираем границы */
+.inputWord:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+/* кнопка для морфемного разбора слова */
+.showMorphemeButton {
+    color: var(--text-color);
+    border: none;
+    background-color: var(--button-fon);
+    border-radius: 15px;
+}
+
+/* при наведении на кнопку делаем ее 
+мутнее и добавляем белую тень */
+.showMorphemeButton:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 15px white;
+}

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SemanticClassLibrary.Models.Entity" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.Documents">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAgAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Documents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.Endings">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAQBAAAAAAIAAEAAABAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Endings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.Prefixes">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQBAAAACAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Prefixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.Roots">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACAAAQBAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Roots.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.SequentialWords">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQ=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\SequentialWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.Suffixes">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQBgAAAAAAAAAAQAACAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\Suffixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.UniqueWords">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\UniqueWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Models.ApplicationContext">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAggQAAAAAAAAAAABAAACgAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Models\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.DocumentsRepository" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\DocumentsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.187" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.EndingsRepository" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\EndingsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.PrefixesRepository" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\PrefixesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.RootsRepository" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\RootsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.SequentialWordsRepository" BaseTypeListCollapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\SequentialWordsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.SuffixesRepository" BaseTypeListCollapsed="true">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\SuffixesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Repositories.UniqueWordsRepository" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\UniqueWordsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.DocumentsService" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAAAAAAAABAAAAAAAAEAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.EndingsService" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYAAAAAAAAAAABAAAAAAAAAACUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EndingsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.PrefixesService" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIAAAAAAAABAAAAAAAAACAEAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>PrefixesService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.RootsService" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAAAAAAEQEAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>RootsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.SequentialWordsService" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAABAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SequentialWordsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.SuffixesService" BaseTypeListCollapsed="true">
+    <Position X="16" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAgAAAABgAAAAAAAAAAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SuffixesService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticClassLibrary.Services.UniqueWordsService" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAABAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UniqueWordsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SemanticSearch.Controllers.BaseController" Collapsed="true">
+    <Position X="14.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearch\Controllers\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearch.Controllers.HomeController">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAkAAAAEAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearch\Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearch.Controllers.NoDistributedController">
+    <Position X="16.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACIAAAAACAAAAAAAABAIAAAAEAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearch\Controllers\NoDistributedController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearch.Controllers.SearchController">
+    <Position X="14.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACIAgAAACAAAAAAAABAIAAAAEAAACAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearch\Controllers\SearchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearchLibrary.Classes.Analyzer">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAQCggCJAIAkACAAAQBAATAAAAAAkAgAIiAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearchLibrary\Classes\Analyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearchLibrary.Classes.Constants">
+    <Position X="10" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAIAAAAAAACACAAAAAAAAAAACEA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearchLibrary\Classes\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearchLibrary.Classes.MyDic" Collapsed="true">
+    <Position X="5.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearchLibrary\Classes\MyDic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticSearchLibrary.Classes.VECT">
+    <Position X="8" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAABAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticSearchLibrary\Classes\VECT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteDataTransfer.Classes.NodeWorker">
+    <Position X="18.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAEAAAAAAAAAAAQAAAAACAIAQAAAAEA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\RemoteDataTransfer\Classes\NodeWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SemanticClassLibrary.Structures.Ending">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAAAAAAgAIAABAAAAQAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Structures\Ending.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SemanticClassLibrary.Structures.Prefix">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Structures\Prefix.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SemanticClassLibrary.Structures.Root">
+    <Position X="8" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Structures\Root.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SemanticClassLibrary.Structures.Suffix">
+    <Position X="10" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAAAAAIAAAAIAAAAAAAAgAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Structures\Suffix.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="SemanticClassLibrary.Repositories.IRepository&lt;T&gt;">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\SemanticClassLibrary\Repositories\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SemanticClassLibrary.Services.IService&lt;T&gt;">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RemoteDataTransfer.Enums.AnswerCommandCase">
+    <Position X="12" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\RemoteDataTransfer\Enums\AnswerCommandCase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RemoteDataTransfer.Enums.SendCommandCase">
+    <Position X="5.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>C:\visual\SemanticSearch\RemoteDataTransfer\Enums\SendCommandCase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="titleHomePage">
+    <p>
+        Для дальнейшего взаимодействия с программой</br>
+        выберите файл .txt (.docx, .pdf)
+    </p>
+</div>
+
+<div class="formDivChoosingFile">
+
+        <p>@ViewBag.message
+            <br />
+            <br />
+            <a asp-controller="Home" asp-action="Index">@ViewBag.linkToHome</a>
+        </p>
+
+        
+        
+        @if (ViewBag.ErrorFile != null)
+        {
+            <p>@ViewBag.ErrorFile</p>
+        }
+        
+        @if (ViewBag.ErrorDoc != null)
+        {
+            <p>@ViewBag.ErrorDoc</p>
+        }
+        
+        @if (ViewBag.NewAdd)
+        {
+            @*
+        multipart/form-data
+        Используется, когда форма содержит файлы для загрузки (<input type="file">).
+        *@
+            <form method="post" enctype="multipart/form-data">
+                <div id="fileName">файл не выбран</div>
+                <div class="buttons">
+                    <label for="fileUpload" class="customFileUpload">
+                        Выбрать файл
+                    </label>
+                    <input id="fileUpload" type="file" name="inputFile" style="display: none;" onchange="ShowFileName(this)"/>
+                    <input class="formDivButtonLoad" type="submit" value="Загрузить файл" />
+                </div>
+
+                <script>
+                    function ShowFileName(input){
+                        var fileName = input.files[0].name;
+                        document.getElementById("fileName").textContent = "Выбран: " + fileName;
+                    }
+                </script>
+            </form>
+        }
+</div>

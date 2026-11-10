@@ -1,0 +1,97 @@
+﻿@model VECT?
+
+<form action="~/WordMorphemes/Index" method="post">
+        <input class="inputWord" type="text" name="inputWord" value="@Model?.word" />
+        <button class="showMorphemeButton" type="submit">Показать морфемы слова</button>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <p>@ViewBag.Error</p>
+}
+
+</br>
+
+@if (Model?.wordPrefixes != null)
+{
+    <p>Приставки:</p>
+    @foreach (var prefix in Model.wordPrefixes)
+    {
+        <p>@prefix</p>
+    }
+}
+</br>
+
+</br>
+@if (Model?.roots != null)
+{
+    <p>Корни:</p>
+    @foreach (var root in Model.roots)
+    {
+        <p>@root</p>
+    }
+}
+</br>
+
+</br>
+@if (Model?.wordSuffixes != null)
+{
+    <p>Суффиксы:</p>
+    @foreach (var suffix in Model.wordSuffixes)
+    {
+        <p>@suffix</p>
+    }
+}
+</br>
+
+@if (Model?.wordEndings != null)
+{
+    <p>Окончания:</p>
+    @foreach (var ending in Model.wordEndings)
+    {
+        <p>@ending</p>
+    }
+}
+</br>
+
+
+@*
+</br>
+@if (ViewBag.InputWordPrefixes != null)
+{
+    <p>Приставки:</p>
+    @foreach (var prefix in ViewBag.InputWordPrefixes)
+    {
+        <p>@prefix</p>
+    }
+}
+
+</br>
+@if (ViewBag.InputWordRoots != null)
+{
+    <p>Корни:</p>
+    @foreach (var root in ViewBag.InputWordRoots)
+    {
+        <p>@root</p>
+    }
+}
+
+</br>
+@if (ViewBag.InputWordSuffixes != null)
+{
+    <p>Суффиксы:</p>
+    @foreach (var suffix in ViewBag.InputWordSuffixes)
+    {
+        <p>@suffix</p>
+    }
+}
+
+</br>
+@if (ViewBag.InputWordEndings != null)
+{
+    <p>Окончания:</p>
+    @foreach (var ending in ViewBag.InputWordEndings)
+    {
+        <p>@ending</p>
+    }
+} *@
